@@ -19,7 +19,7 @@ a {
 
 ul,
 ol {
-  list-style: none;
+  list-style: none outside;
 }
 
 .container {
@@ -32,11 +32,6 @@ ol {
   justify-content: space-between;
 }
 
-.container-large {
-  max-width: 1256px;
-  margin: 0 auto;
-  padding-top: 73px;
-}
 
 /* HEADER STYLE */
 
@@ -72,6 +67,12 @@ ol {
   background-color: #B4D0E7;
 }
 
+.container-large {
+  max-width: 1256px;
+  margin: 0 auto;
+  padding-top: 73px;
+}
+
 .hero-title {
   font-size: 49px;
   font-weight: 800;
@@ -83,7 +84,6 @@ ol {
 
 .col-4 {
   width: calc(100% * (4 / 12));
-  position: relative;;
 }
 
 .col-8 {
@@ -107,8 +107,12 @@ ol {
   display: block;
 }
 
-main .button {
+ .hero .button {
   padding: 15px 17px;
+}
+
+.jumbo-description {
+  position: relative;;
 }
 
 .icon-arrowdown {
@@ -121,6 +125,107 @@ main .button {
 .jumbo-img > img {
   height: 503px;
   width: 838px;
+}
+
+/* BUSINESS PLAN */
+
+
+.container-small {
+  width: 1042px;
+  margin: 0 auto;
+}
+
+.business-plan.title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.radio-button {
+  font-size: 21px;
+  padding-right: 5px;
+}
+
+.radio-items {
+  padding-right: 26px;
+}
+
+.radio-button.active {
+  color: #0060FF;
+}
+
+.radio-buttons {
+  display: flex;
+  margin-top: 37px;
+}
+
+/* CARDS STYLE */
+
+.card {
+  margin-top: 47px;
+}
+
+.card > * {
+  padding: 36px 25px 0;
+}
+
+.card-header,
+.card-content {
+  border: 2px solid #E0E0E2
+}
+
+.card-header {
+  text-align: center;
+  padding: 12px;
+}
+
+.card-content {
+  line-height: 2em;
+}
+
+.content-title {
+  font-size: 20px;
+}
+
+.content-plan.features,
+.direct-purchase,
+.peculiarity-title {
+  padding: 41px 0;
+}
+
+.features {
+  padding: 10px 0;
+  line-height: 1.5em;
+}
+
+.card [class^='icon-'] {
+  padding-right: 5px;
+}
+
+.time-plan {
+  display: block;
+}
+
+.card-buttons {
+  text-align: center;
+}
+
+.button.trial {
+  display: block;
+  line-height: 3em;
+}
+
+.direct-purchase {
+  display: block;
+}
+
+.purchase {
+  text-decoration: underline;
+  color: blue;
+}
+
+.icon-peculiarity {
+  color:  #0060FF;
 }
 
 /* DEBUG RULES */
@@ -156,4 +261,25 @@ main .button {
 .debug [class^='col-'] {
   border: 2px dashed gray;
   padding: 10px;
+}
+
+.debug .business-plan {
+  border: 2px solid fuchsia;
+  padding: 10px;
+}
+
+.debug .container-small {
+  border: 2px dashed forestgreen;
+  padding: 10px;
+}
+
+.debug .card-content {
+  border: 2px dotted red;
+}
+
+.debug .direct-purchase,
+.debug .peculiarity,
+.debug .card-buttons,
+.debug .content-plan {
+  border: 2px dashed violet;
 }
