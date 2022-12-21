@@ -79,15 +79,17 @@ ol {
 }
 
 .col-12 {
-  width: 100%;
+  flex-basis: 100%;
+  padding: 0 25px;
 }
 
 .col-4 {
-  width: calc(100% * (4 / 12));
+  flex-basis: calc(100% * (4 / 12));
+  padding: 0 25px;
 }
 
 .col-8 {
-  width: calc(100% * (8 / 12));
+  flex-basis: calc(100% * (8 / 12));
 }
 
 .row {
@@ -118,7 +120,7 @@ ol {
 .icon-arrowdown {
   font-size: 47px;
   position: absolute;
-  left: 0;
+  left: 25px;
   bottom: 107px;
 }
 
@@ -128,6 +130,15 @@ ol {
 }
 
 /* BUSINESS PLAN */
+.business-plan-section {
+  padding: 60px 0;
+}
+
+.row.business-plan {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -25px;
+}
 
 
 .container-small {
@@ -148,6 +159,7 @@ ol {
 
 .radio-items {
   padding-right: 26px;
+  font-weight: 300;
 }
 
 .radio-button.active {
@@ -166,20 +178,23 @@ ol {
 }
 
 .card > * {
-  padding: 36px 25px 0;
+  padding: 36px 25px;
 }
 
 .card-header,
-.card-content {
+.card-content,
+.card-content-12 {
   border: 2px solid #E0E0E2
 }
 
 .card-header {
   text-align: center;
   padding: 12px;
+  font-weight: 300;
 }
 
-.card-content {
+.card-content,
+.card-content-12 {
   line-height: 2em;
 }
 
@@ -196,6 +211,11 @@ ol {
 .features {
   padding: 10px 0;
   line-height: 1.5em;
+  font-weight: 300;
+}
+
+i {
+  color: black;
 }
 
 .card [class^='icon-'] {
@@ -204,6 +224,7 @@ ol {
 
 .time-plan {
   display: block;
+  font-weight: 300;
 }
 
 .card-buttons {
@@ -217,6 +238,7 @@ ol {
 
 .direct-purchase {
   display: block;
+  font-weight: 300;
 }
 
 .purchase {
@@ -226,6 +248,27 @@ ol {
 
 .icon-peculiarity {
   color:  #0060FF;
+}
+
+.content-plan.features.enterprise {
+  margin-top: 32px;
+}
+
+.card-content.small {
+  height: 1074px;
+}
+
+/* LAST CARD STYLE */
+
+.card-content-12 {
+  display: flex;
+}
+
+.enterpise-description {
+  display: block;
+  padding-top: 58px;
+  line-height: 1.5em;
+  font-weight: 300;
 }
 
 /* DEBUG RULES */
