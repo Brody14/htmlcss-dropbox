@@ -63,7 +63,8 @@ ol {
 
 /* HERO STYLE */
 
-.hero {
+.hero,
+.free-trial.section {
   background-color: #B4D0E7;
 }
 
@@ -350,6 +351,7 @@ i {
   padding: 0 16px;
   border: 2px solid black;
   white-space: nowrap;
+  text-align: center;
 }
 
 /* SPECIFICS STYLE */
@@ -365,7 +367,8 @@ i {
 }
 
 .specifics-title,
-.users-title {
+.users-title,
+.free-trial-title {
   font-size: 35px;
 }
 
@@ -388,6 +391,33 @@ i {
   flex-wrap: wrap;
   margin: 0 -25px;
   margin-top: 20px;
+}
+
+/* FREE TRIAL STYLE */
+
+.free-trial.section {
+  padding: 142px 0;
+}
+
+.row-trial {
+  display: flex;
+}
+
+.col-free-trial {
+  flex-grow: 1;
+}
+
+.col-ftbutton {
+  flex-basis: 30%;
+}
+
+.free-trial-title {
+  color: #60072A;
+}
+
+.col-ftbutton > .button-white {
+  border: none;
+  width: 100%;
 }
 
 /* DEBUG RULES */
