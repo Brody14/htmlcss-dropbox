@@ -368,8 +368,7 @@ i {
 
 .specifics-title,
 .users-title,
-.free-trial-title,
-.faq-title {
+.free-trial-title {
   font-size: 35px;
 }
 
@@ -427,22 +426,39 @@ i {
   padding: 124px 0;
 }
 
-
-.row-faq li {
-  padding: 20px;
-  border-top: 2px solid  #B6B6B6;
-}
-
 .question {
+  font-size: 20px;
+  font-weight: 700;
   border-bottom: 2px solid  #B6B6B6;
+  line-height: 108px;
 }
-
 
 .question::after {
   font-family: "Font Awesome 6 Free";
-  content: '\f078';
   font-weight: 900;
+  content: '\f078';
+  padding: 45px 16px;
+  margin-left: 162px;
 }
+
+.faq-header {
+  margin-top: 22px;
+}
+
+.faq-title {
+  line-height: 108px;
+  font-size: 35px;
+}
+
+.faq-questions {
+  margin-top: 22px;
+}
+
+.question.start {
+  border-top: 2px solid  #B6B6B6;
+}
+
+
 
 /* DEBUG RULES */
 
@@ -503,3 +519,4 @@ i {
 .debug .partner.section {
   border: 2px solid black;
 }
+
