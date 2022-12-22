@@ -241,6 +241,11 @@ i {
   font-weight: 300;
 }
 
+.peculiarity {
+  border-top: 2px solid #E0E0E2;
+  width: 20%;
+}
+
 .purchase {
   text-decoration: underline;
   color: blue;
