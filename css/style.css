@@ -314,7 +314,8 @@ i {
 
 /* PARTNER SECTION STYLE */
 
-.partner.section {
+.partner.section,
+.specifics.section  {
   padding: 84px 0;
 }
 
@@ -345,6 +346,10 @@ i {
   border: 2px solid black;
   white-space: nowrap;
 }
+
+/* SPECIFICS SECTION */
+
+
 
 /* DEBUG RULES */
 
