@@ -140,7 +140,6 @@ ol {
   margin: 0 -25px;
 }
 
-
 .container-small {
   width: 1042px;
   margin: 0 auto;
@@ -241,18 +240,9 @@ i {
   font-weight: 300;
 }
 
-.peculiarity {
-  border-top: 2px solid #E0E0E2;
-  width: 20%;
-}
-
 .purchase {
   text-decoration: underline;
   color: blue;
-}
-
-.icon-peculiarity {
-  color:  #0060FF;
 }
 
 .content-plan.features.enterprise {
@@ -262,6 +252,52 @@ i {
 .card-content.small {
   height: 1074px;
 }
+
+/* ICONS */
+
+.icon-user::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: '\f007';
+  margin-right: 5px;
+}
+
+.icon-users::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: '\f0c0';
+  margin-right: 5px;
+}
+
+.icon-folder::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: '\f07b';
+  margin-right: 5px;
+}
+
+.icon-share::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: '\f1e0';
+  margin-right: 5px;
+}
+
+.icon-check::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: '\f00c';
+  margin-right: 5px;
+  color:  #0060FF;
+}
+
+.icon-enterprise::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: '\f1ad';
+  margin-right: 5px;
+}
+
 
 /* LAST CARD STYLE */
 
