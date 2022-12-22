@@ -368,7 +368,8 @@ i {
 
 .specifics-title,
 .users-title,
-.free-trial-title {
+.free-trial-title,
+.faq-title {
   font-size: 35px;
 }
 
@@ -418,6 +419,29 @@ i {
 .col-ftbutton > .button-white {
   border: none;
   width: 100%;
+}
+
+/* FAQ STYLE */
+
+.faq.section {
+  padding: 124px 0;
+}
+
+
+.row-faq li {
+  padding: 20px;
+  border-top: 2px solid  #B6B6B6;
+}
+
+.question {
+  border-bottom: 2px solid  #B6B6B6;
+}
+
+
+.question::after {
+  font-family: "Font Awesome 6 Free";
+  content: '\f078';
+  font-weight: 900;
 }
 
 /* DEBUG RULES */
