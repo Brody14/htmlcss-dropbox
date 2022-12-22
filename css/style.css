@@ -241,7 +241,8 @@ i {
   font-weight: 300;
 }
 
-.purchase {
+.purchase,
+.more-about {
   text-decoration: underline;
   color: blue;
 }
@@ -316,8 +317,10 @@ i {
 /* PARTNER SECTION STYLE */
 
 .partner.section,
-.specifics.section  {
-  padding: 84px 0;
+.specifics.section,
+.users.section  {
+  padding-top: 84px;
+  padding-bottom: 20px;
 }
 
 .row-partner {
@@ -349,7 +352,7 @@ i {
   white-space: nowrap;
 }
 
-/* SPECIFICS SECTION */
+/* SPECIFICS STYLE */
 
 .description-title {
   margin-top: 16px;
@@ -361,8 +364,23 @@ i {
   padding: 40px 0 20px 0;
 }
 
-.specifics-title {
-  font-size: 25px;
+.specifics-title,
+.users-title {
+  font-size: 35px;
+}
+
+/* USERS STYLE */
+
+.users.section {
+  padding-bottom: 84px;
+}
+
+.users-title {
+  padding: 50px 0;
+}
+
+.more-about {
+  padding: 36px 0;
 }
 
 .row.specifics {
