@@ -312,6 +312,12 @@ i {
   font-weight: 300;
 }
 
+/* PARTNER SECTION STYLE */
+
+.partner.section {
+  padding: 84px 0;
+}
+
 /* DEBUG RULES */
 
 .debug .container {
@@ -366,4 +372,8 @@ i {
 .debug .card-buttons,
 .debug .content-plan {
   border: 2px dashed violet;
+}
+
+.debug .partner.section {
+  border: 2px solid black;
 }
