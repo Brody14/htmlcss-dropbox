@@ -10,6 +10,7 @@ body {
 
 img {
   width: 100%;
+  display: block;
 }
 
 a {
@@ -25,7 +26,7 @@ ol {
 .container {
   width: 100%;
   margin: 0 auto;
-  display: flex;
+
 }
 
 .justify-spacebtw {
@@ -34,6 +35,10 @@ ol {
 
 
 /* HEADER STYLE */
+
+.header-nav {
+  display: flex;
+}
 
 .header {
   padding: 20px 24px;
@@ -393,6 +398,82 @@ i {
   margin-top: 20px;
 }
 
+/* REVIEWS STYLE */
+
+.col-3 {
+  flex-basis: calc(100% / 3);
+  margin: 0 auto;
+}
+
+.row-reviews {
+  display: flex;
+}
+
+/* LOGO BOX  */
+
+.logo-box {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.col-box {
+  flex-basis: 50%;
+}
+
+.row-logo-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-box.designit {
+  background-color: #A2D39B;
+}
+
+.col-box.asu {
+  background-color: #61082B;
+}
+
+.col-box.uf {
+  background-color: #0093CE;
+}
+
+.col-box.topps {
+  background-color: #FF1C1C;
+}
+
+/* SECOND LOGO BOX */
+
+.col-box.wbr {
+  background-color: #D5001F;
+}
+
+.col-box.hc {
+  background-color: #B4D0E7;
+}
+
+.col-box.lp {
+  background-color: #0D2481;
+}
+
+.col-box.cco {
+  background-color: #FFD830;
+}
+
+
+/* CENTER BOX */
+
+.center-box {
+  background-color: #F5F5F5;
+}
+
+.review-box {
+  padding: 50px;
+}
+
+.review-text {
+  padding: 50px 0;
+}
+
 /* FREE TRIAL STYLE */
 
 .free-trial.section {
@@ -569,4 +650,3 @@ i {
 .debug .partner.section {
   border: 2px solid black;
 }
-
