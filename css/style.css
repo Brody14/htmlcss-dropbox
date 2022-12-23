@@ -420,6 +420,7 @@ i {
   flex-basis: 50%;
   position: relative;
   aspect-ratio: 1;
+  border: 15px solid transparent;
 }
 
 .box-img {
@@ -438,6 +439,7 @@ i {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 
+
 .col-box.designit {
   background-color: #A2D39B;
 }
@@ -452,6 +454,25 @@ i {
 
 .col-box.topps {
   background-color: #FF1C1C;
+}
+
+/*  ACTIVE */
+
+
+.designit:active {
+  border: 15px solid #D1E9CD;
+}
+
+.asu:active {
+  border: 15px solid #8b5369;
+}
+
+.uf:active {
+  border: 15px solid #68b2cf;
+}
+
+.topps:active {
+  border: 15px solid #ec9090;
 }
 
 /* SECOND LOGO BOX */
@@ -470,6 +491,24 @@ i {
 
 .col-box.cco {
   background-color: #FFD830;
+}
+
+/* HOVER */
+
+.wbr:hover {
+  border: 15px solid #cd7a87;
+}
+
+.hc:hover {
+  border: 15px solid #d5dee5;
+}
+
+.lp:hover {
+  border: 15px solid #617be1;
+}
+
+.cco:hover {
+  border: 15px solid #eddc91;
 }
 
 
