@@ -71,7 +71,7 @@ ol {
 .container-large {
   max-width: 1256px;
   margin: 0 auto;
-  padding-top: 73px;
+  /* padding-top: 73px; */
 }
 
 .hero-title {
@@ -458,6 +458,56 @@ i {
   border-top: 2px solid  #B6B6B6;
 }
 
+/* FOOTER STYLE */
+
+.page-footer {
+  background-color: #000000;
+  color: white;
+}
+
+.col-5 {
+  width: calc(100% / 5 - 90px);
+}
+
+.row.menu-footer {
+  display: flex;
+  padding: 110px 0;
+}
+
+.footer-menu-title {
+  font-size: 25px;
+}
+
+.footer-menu-items {
+  padding-top: 20px;
+}
+
+.footer-menu-items a {
+  display: block;
+  line-height: 40px;
+}
+
+.select-language {
+  background-color: #000000;
+  color: #CECECE;
+  border: none;
+  font-size: 14px;
+  padding: 40px 0;
+}
+
+.language::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 5px;
+  content: '\f57d';
+}
+
+.language::after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-left: 5px;
+  content: '\f0d8';
+}
 
 
 /* DEBUG RULES */
