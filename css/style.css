@@ -175,27 +175,15 @@ ol {
 
 .card {
 	margin-top: 47px;
-}
-
-.business-plan-section.card > * {
-	padding: 36px 25px;
-}
-
-.card-header,
-.card-content,
-.card-content-12 {
 	border: 2px solid #e0e0e2;
 }
+
 
 .card-header {
 	text-align: center;
 	padding: 12px;
 	font-weight: 300;
-}
-
-.card-content,
-.card-content-12 {
-	line-height: 2em;
+	border-bottom: 2px solid #e0e0e2;
 }
 
 .content-title,
@@ -206,7 +194,15 @@ ol {
 .content-plan.features,
 .direct-purchase,
 .peculiarity-title {
-	padding: 41px 0;
+	margin: 41px 0;
+}
+
+.peculiarity::before {
+	content: "";
+	display: block;
+	background-color: #d5d5d8;
+	width: 100px;
+	height: 2px;
 }
 
 .features {
@@ -251,8 +247,10 @@ ol {
 	margin-top: 32px;
 }
 
-.card-content.small {
-	height: 1074px;
+.card-content.small,
+.card-content-12 {
+	height: 100%;
+	padding: 36px 26px;
 }
 
 /* ICONS */
